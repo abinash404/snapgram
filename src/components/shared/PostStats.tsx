@@ -1,7 +1,6 @@
 import { Models } from 'appwrite'
 import React, { useEffect, useState } from 'react'
 import { useDeleteSavePost, useGetCurrentUser, useLikePost, useSavePost } from '../lib/react-query/queriesAndMutations';
-import { useUserContext } from '@/contexts/AuthContext';
 import { checkIsLiked } from '../lib/utils';
 import Loader from './Loader';
 

@@ -8,7 +8,7 @@ import { useToast } from "@/components/ui/use-toast"
 import {
   Form,
   FormControl,
-  FormDescription,
+ 
   FormField,
   FormItem,
   FormLabel,
@@ -18,7 +18,6 @@ import { Input } from "@/components/ui/input"
 import { SignupValidation } from "@/components/lib/validation"
 import { Link,useNavigate } from "react-router-dom"
 import Loader from "@/components/shared/Loader"
-import { createUserAccount } from "@/components/lib/appwright/api"
 import { useCreateUserAccount, useSignInAccount } from "@/components/lib/react-query/queriesAndMutations"
 import { useUserContext } from "@/contexts/AuthContext"
 
